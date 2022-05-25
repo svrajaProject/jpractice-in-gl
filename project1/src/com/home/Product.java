@@ -2,6 +2,8 @@ package com.home;
 
 public class Product {
 	
+	String access = "Accessed";
+	
 	void display() {
 		
 		System.out.println("display from Product");
@@ -15,8 +17,7 @@ public class Product {
 }
 class Product2 {
 
-	
-	int add(int a, int b, int c) {
+	public int add(int a, int b, int c) {
 			
 			int var = a+b+c;
 			
